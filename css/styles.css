@@ -234,11 +234,37 @@ figure {
 
 
 .about p {
-  float: right;
+  float: left;
 }
 
 .about {
-  padding-right:17em;
-  padding-bottom:3em;
+  padding-left:34%;
+  padding-bottom:4%;
+
 }
+
+
+
+
+
+}
+
+@media screen and (min-width:992px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
