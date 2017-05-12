@@ -195,3 +195,50 @@ figure {
 .about > p {
   margin: 0;
 }
+
+@media screen and (min-width: 768px)  {
+  .site-nav-list {
+      display: inline-block;
+      width: 100%;
+      padding-top:5em;
+      /*padding-left:1em;
+      /*padding: 2em 2em;
+      margin-right: 0;
+      height:100%;*/
+
+  }.site-nav-item {
+    width:100%;
+  }
+
+.site-nav {
+    width: 5em;
+    top: 0;
+    margin-right: 1%;
+
+  }
+
+.site-logo{
+ z-index:1000;
+ left:0.5em;
+ width:1.5em;
+ position:fixed;
+}
+
+.movie-details{
+  padding-left: 5.5rem;
+}
+
+.movie-overview {
+  display:inline;
+}
+
+
+.about p {
+  float: right;
+}
+
+.about {
+  padding-right:17em;
+  padding-bottom:3em;
+}
+}
