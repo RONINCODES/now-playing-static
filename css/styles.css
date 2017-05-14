@@ -264,8 +264,11 @@ body{
 
 .movie:first-of-type .movie-backdrop {
   display:block;
+  width:100%;
+  padding:0;
+  margin:0;
 }
-/*display movie drop-box for first movie class*/
+/*display movie backdrop for first movie class*/
 
 .movie:first-of-type .movie-poster{
   display:none;
@@ -289,4 +292,10 @@ footer{
 /*after floating all the posters into a grid
 the footer- bunched up at the top the above code fixed it*/
 }
+
+main {
+  width:95%;
+  float:right;
+}
+
 }
