@@ -247,23 +247,40 @@ figure {
 
 @media screen and (min-width:992px) {
 
+body{
+  padding-bottom:5em;
+}
+
 .movie-backdrop {
   display:none;
 }
+/*remove backdrop element from view*/
+
 
 .movie-poster {
   display:inline-block;
 }
-.movie:first-of-type .movie-backdrop{
+/*display poster element*/
+
+.movie:first-of-type .movie-backdrop {
   display:block;
 }
+/*display movie drop-box for first movie class*/
+
 .movie:first-of-type .movie-poster{
   display:none;
-
 }
+/*hide poster for first movie class*/
+
 .movie:not(:first-of-type) {
-border: 10px solid red;
+  width:33.33%;
+  float:left;
+  padding:0;
+  margin:0;
 }
+/*place rest of movie posters in a grid*/
 
-
+.movie:not(:first-of-type) .movie-overview {
+  display:none;
+}  
 }
