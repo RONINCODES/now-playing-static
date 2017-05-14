@@ -282,5 +282,11 @@ body{
 
 .movie:not(:first-of-type) .movie-overview {
   display:none;
-}  
+}
+footer{
+  clear:left;
+}
+/*after floating all the posters into a grid
+the footer- bunched up at the top the above code fixed it*/
+}
 }
