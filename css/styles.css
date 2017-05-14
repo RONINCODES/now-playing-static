@@ -226,10 +226,11 @@ figure {
 
 .movie-details{
   padding-left: 5.5rem;
+
 }
 
 .movie-overview {
-  display:inline;
+  display:inline-block;
 }
 
 
@@ -245,10 +246,24 @@ figure {
 }
 
 @media screen and (min-width:992px) {
-.movie
 
+.movie-backdrop {
+  display:none;
+}
 
+.movie-poster {
+  display:inline-block;
+}
+.movie:first-of-type .movie-backdrop{
+  display:block;
+}
+.movie:first-of-type .movie-poster{
+  display:none;
 
+}
+.movie:not(:first-of-type) {
+border: 10px solid red;
+}
 
 
 }

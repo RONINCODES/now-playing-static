@@ -1,0 +1,51 @@
+img[src="http://image.tmdb.org/t/p/w1280/tFI8VLMgSTTU38i8TIsklfqS9Nl.jpg"] {
+  display:inline-block;
+}
+img[src="http://image.tmdb.org/t/p/w780/xfWac8MTYDxujaxgPVcRD9yZaul.jpg"]{
+  display:none;
+}
+main {
+  overflow: hidden;
+  margin:0;
+}
+.movie-poster {
+  float:left;
+  width:33%;
+  display:inline-block;
+}
+
+.movie-title-label{
+  display:inline-block;
+}
+
+.movie-title{
+  display:inline-block;
+}
+
+.movie-backdrop {
+  display:none;
+}
+
+.movie-overview {
+  display:none;
+}
+
+
+}
+body {
+  padding-bottom: 5em;
+
+}
+
+footer {
+  bottom:0;
+  left:0;
+  padding:0;
+}
+
+/*.movie:nth-child(1) {
+  display:inline-block;
+
+
+}
+}
